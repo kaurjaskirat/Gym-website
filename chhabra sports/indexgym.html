@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chhabra Sports</title>
+  </head>
+  <link rel="Sportsheet" href="css/sports.css" />
+  <style>
+    /* body { */
+      /* margin: 0px; */
+      /* padding: 0px; */
+      /* background: url("img/back.jpg"); */
+      /* color: white; */
+    /* } */
+    body{
+        background: url('img/bg.jpg');
+        padding:0px;
+        margin: 0px;
+
+    }
+    .left {
+      display: inline-block;
+      top: 40px;
+      left: 40px;
+      position: absolute;
+    }
+    .left img {
+      width: 140px;
+    }
+    .left div {
+      color: gold;
+      font-size: 20px;
+      text-align: center;
+      background-color: black;
+      border-radius: 45px;
+    }
+    .mid {
+      display: block;
+      width: 40%;
+      margin: 20px auto;
+      font-style: inherit;
+    }
+    .right {
+      position: absolute;
+      display: inline-block;
+      right: 40px;
+      top: 40px;
+    }
+    .navbar {
+      display: flex;
+    }
+    .navbar li {
+      display: inline-block;
+      color: rgb(234, 20, 131);
+      font-size: 20px;
+    }
+    .navbar li a {
+      display: inline-block;
+      text-decoration: none;
+      color: rgb(14, 109, 187);
+      padding: 15px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: rgb(226, 7, 204);
+    }
+    .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: aliceblue;
+      padding: 4px 14px;
+      border: 2px solid rgb(182, 18, 141);
+      border-radius: 10px;
+      font-style: italic;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(190, 30, 105);
+      text-decoration: underline;
+    }
+    .container {
+      background-color: rgb(0, 7, 5);
+      border: 2px solid rgb(250, 247, 253);
+      margin: 100px 380px;
+      padding: 75px;
+      width: 33%;
+      border-radius: 15px;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      padding: auto;
+      width: 400px;
+      border: 2px solid black;
+      margin: 3px auto;
+      font-size: 25px;
+      border-radius: 10px;
+    }
+    .container h3 {
+      text-align: center;
+      padding-bottom: 15px;
+      color: yellow;
+      background-color: black;
+      font-size: 35px;
+    }
+    .container h4 {
+      text-align: center;
+      padding-top: 15px;
+      color: rgb(0, 217, 255);
+      background-color: black;
+      font-size: 20px;
+    }
+    .container button {
+      padding: 10px;
+      text-align: center;
+      display: block;
+      margin: auto;
+      width: 33%;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img/logo.jpg" alt="" />
+        <div>CHHABRA SPORTS</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h4>Shop from the best sports complex</h4>
+      <h3>"CHHABRA SPORTS"</h3>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Locality" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
